@@ -27,10 +27,11 @@ android {
     }
 
     buildTypes {
-        release {
-            isMinifyEnabled = false
-        }
+    release {
+        isMinifyEnabled = true
+        isShrinkResources = true
     }
+}
 }
 
 flutter {
